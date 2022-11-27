@@ -23,12 +23,12 @@
     "typescript": "^4.9.3"
   },
   "scripts": {
-    "watch": "tsc -w --preserveWatchOutput",
+    "watch-ts": "tsc -w --preserveWatchOutput",
     "test": "react-scripts test",
     "build": "npm run clean && npm run compile && react-scripts build",
     "compile": "tsc",
     "clean": "rm -rf build && rm -rf tsconfig.buildinfo",
-    "start": "PORT=3001 CI=true react-scripts start"
+    "watch": "PORT=3001 CI=true react-scripts start"
   },
   "browserslist": [
     ">0.2%",

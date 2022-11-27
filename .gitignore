@@ -3,3 +3,4 @@
 **/junit.xml
 **/npm-debug.log
 **/build
+.DS_Store
