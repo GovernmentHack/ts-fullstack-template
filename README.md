@@ -16,10 +16,6 @@ A template mono-repo full-stack Typescript project that includes a debugging env
 
 ### Running
 
-`npm run start`
-
-* Runs the compiled JS project.
-
 `docker-compose up`
 
 * Will build a production build docker container and start it.
